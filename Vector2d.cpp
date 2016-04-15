@@ -81,3 +81,4 @@ Vector2d Vector2d::vectorFromRotationInDegrees(float rotationInDegrees, float de
 
 	return Vector2d(vectorX, vectorY);
 }
+
