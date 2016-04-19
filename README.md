@@ -56,7 +56,7 @@ function Vector2d.pointToPointVector(from, to) --> first create object with x an
 
 function Vector2d.vectorFromRotationInRadians(rotationInRadians, velocity) --> This function counting vector of Movement based of object rotation in Radians, optional arguments it's speed of object
 
-function Vector2d.vectorFromRotationInDegrees(rotationInDegrees, velocity) -> This function counting vector of Movement based of object rotation in Degrees, optional arguments it's speed of object
+function Vector2d.vectorFromRotationInDegrees(rotationInDegrees, velocity) --> This function counting vector of Movement based of object rotation in Degrees, optional arguments it's speed of object
 
 function Vector2d.rotationInDegreesFromVector(vectorOfMovement) --> Based on vector counting rotation and return value in Degrees
 	
