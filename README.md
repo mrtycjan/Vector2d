@@ -39,3 +39,32 @@ Many of functions implemented in Vector2d is Overrided. What it's mean? You can 
 	static Vector2d vectorFromRotationInDegrees(float rotationInDegrees, float deltaTime = 1, float velocity = 1); //Compute vector from rotation in degrees, optional arguments, deltaTime, object velocity
 
 ```
+
+### For Lua
+With Lua it will be a little bit more easier, download and paste into project folder Vector2d.lua. Finally add this as a Lua module just add this line of code.
+
+```lua
+Vector2d = require("Vector2d")
+```
+### How to integrate with project (Lua)
+Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/LuaIntegration.lua)
+
+### Functions (Lua)
+
+```lua
+function Vector2d.pointToPointVector(from, to) --> first create object with x and y components e.g Object = {x, y}. In fact Lua is non-objective language, but you can pretend it, using metatables. This function counting vector of Movement based of coordinates
+
+function Vector2d.vectorFromRotationInRadians(rotationInRadians, velocity) --> This function counting vector of Movement based of object rotation in Radians, optional arguments it's speed of object
+
+function Vector2d.vectorFromRotationInDegrees(rotationInDegrees, velocity) -> This function counting vector of Movement based of object rotation in Degrees, optional arguments it's speed of object
+
+function Vector2d.rotationInDegreesFromVector(vectorOfMovement) --> Based on vector counting rotation and return value in Degrees
+	
+function Vector2d.rotationInRadiansFromVector(vectorOfMovement) --> Based on vector counting rotation and return value in Radians
+	
+function Vector2d.radiansToDegrees(radians) --> Converts radians to degrees
+
+function Vector2d.degreesToRadians(degrees) --> Converts degrees to radians
+
+
+```
