@@ -1,4 +1,5 @@
 #include <SFML\Graphics.hpp>
+
 #include "Vector2d.h"
 
 int main()

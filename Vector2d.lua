@@ -13,10 +13,10 @@ function Vector2d.vectorFromRotationInRadians(rotationInRadians, velocity)
 	
 	local vectorOfMovement = {x, y}
 	
-	if(velocity ~= nil)
+	if(velocity ~= nil) then
 		vectorOfMovement.x = math.sin(rotationInRadians) * velocity
 		vectorOfMovement.y = -math.cos(rotationInRadians) * velocity
-	else
+	else 
 		vectorOfMovement.x = math.sin(rotationInRadians)
 		vectorOfMovement.y = -math.cos(rotationInRadians)
 	end
@@ -28,10 +28,10 @@ function Vector2d.vectorFromRotationInDegrees(rotationInDegrees, velocity)
 	local vectorOfMovement = {x, y}
 	local rotationInRadians = rotationInDegrees * math.pi / 180
 	
-	if(velocity ~= nil)
+	if(velocity ~= nil) then
 		vectorOfMovement.x = math.sin(rotationInRadians) * velocity
 		vectorOfMovement.y = -math.cos(rotationInRadians) * velocity
-	else
+	else 
 		vectorOfMovement.x = math.sin(rotationInRadians)
 		vectorOfMovement.y = -math.cos(rotationInRadians)
 	end
