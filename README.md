@@ -1,7 +1,7 @@
 ## Vector2d
 Physical library supporting vectors calculations.
 
-### Available language implementataion
+### Available language implementation
 - C++ 
 - Lua 
 - Java
