@@ -22,7 +22,7 @@ We use "" becouse we keep this files in project directory.
 Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/ExampleIntegrationWithSFML.cpp)
 
 ### What this all Functions do? (C++)
-Many of functions implemented in Vector2d is Overrided. What it's mean? You can use the same function with multiple arguments. Also they have a default value for non-necessary arguments. Every functions have long name, which simply explains what they do, just take a look at Vector2d.h and comments.
+Many of functions implemented in Vector2d is Overridden. What it's mean? You can use the same function with multiple arguments. Also they have a default value for non-necessary arguments. Every functions have long name, which simply explains what they do, just take a look at Vector2d.h and comments.
 
 ```cpp
 	static float radiansToDegrees(float radians); //Convert Radians into Degrees
