@@ -19,7 +19,7 @@ Download Vector2d.h and Vector2d.cpp and paste file into your project directory.
 We use "" becouse we keep this files in project directory.
 
 ### How to integrate with project (C++)
-Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/ExampleIntegrationWithSFML.cpp)
+Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/C++/ExampleIntegrationWithSFML.cpp)
 
 ### What this all Functions do? (C++)
 Many of functions implemented in Vector2d is Overridden. What it's mean? You can use the same function with multiple arguments. Also they have a default value for non-necessary arguments. Every functions have long name, which simply explains what they do, just take a look at Vector2d.h and comments.
@@ -52,7 +52,7 @@ With Lua it will be a little bit more easier, download and paste into project fo
 Vector2d = require("Vector2d")
 ```
 ### How to integrate with project (Lua)
-Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/LuaIntegration.lua)
+Take look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/Lua/LuaIntegration.lua)
 
 ### Functions (Lua)
 
