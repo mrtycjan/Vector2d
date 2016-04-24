@@ -2,9 +2,9 @@
 Physical library supporting vectors calculations.
 
 ### Available language implementation
-- C++ 
-- Lua 
-- Java
+- [C++](https://github.com/mrtycjan/Vector2d#for-c)
+- [Lua](https://github.com/mrtycjan/Vector2d#for-lua)
+- [Java](https://github.com/mrtycjan/Vector2d#for-java)
 
 ### How to use?
 First choose implementation language according with yours.
