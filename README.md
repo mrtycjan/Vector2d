@@ -10,7 +10,7 @@ Physical library supporting vectors calculations.
 First choose implementation language according with yours.
 
 ### For C++
-Download Vector2d.h and Vector2d.cpp and paste file into your project directory. In first lines of code add a preprocesor directive 
+Download and paste Vector2d.cpp and Vector2d.h files from C++ folder into your project directory. In first lines of code add a preprocesor directive 
 ```cpp
 #include "Vector2d.h"
 ```
@@ -46,7 +46,7 @@ Many of functions implemented in Vector2d is Overridden. What it's mean? You can
 ```
 
 ### For Lua
-With Lua it will be a little bit more easier, download and paste into project folder Vector2d.lua. Finally add this as a Lua module just add this line of code.
+With Lua it will be a little bit more easier, download and paste into project folder Vector2d.lua from Lua folder. Finally add this as a Lua module just add this line of code.
 
 ```lua
 Vector2d = require("Vector2d")
@@ -73,3 +73,54 @@ function Vector2d.degreesToRadians(degrees) --> Converts degrees to radians
 
 
 ```
+
+### For Java
+Download and paste into project ml/tycjan/vector2d folder
+
+
+### How to integrate with project (Java)
+Take a look at [Example Integration](https://github.com/mrtycjan/Vector2d/tree/master/Java/ml/tycjan/vector2d)
+
+### Functions (Java)
+
+```java
+
+public Vector2d(float x, float y) //Constructor
+	
+public void setX(float x) //Just Getters and setters
+
+public void setY(float y) //Just Getters and setters
+
+public float getX() //Just Getters and setters
+
+public float getY()	//Just Getters and setters
+
+public static float radiansToDegrees(float radians) //Convert radians to degrees
+	
+public static float degreesToRadians(float degrees) //Convert degrees to radianas
+	
+public static float rotationInRadiansFromVector(float toX, float toY, float fromX, float fromY) //Compute rotation, based on vector and return angle in radians 
+
+public static float rotationInRadiansFromVector(Vector2d vector) // The same but the function is overridden, so yo can use computed vector as argument
+	
+public static float rotationInDegreesFromVector(float toX, float toY, float fromX, float fromY) //Compute rotation, based on vector and return angle in radians 
+	
+public static float rotationInDegreesFromVector(Vector2d vector) // The same but the function is overridden, so yo can use computed vector as argument
+	
+public static Vector2d pointToPointVector(float toX, float toY, float fromX, float fromY) //Compute vector based on actual position
+
+public static Vector2d pointToPointVector(Vector2d to, Vector2d from) // The same but function is overridden you can use vector objects provided from Vector2d class
+	
+public static Vector2d vectorFromRotationInRadians(float radians) //Compute vector based on rotation
+	
+public static Vector2d vectorFromRotationInDegrees(float degrees) //Compute vector based on rotation
+
+
+```
+
+
+
+
+
+
+
