@@ -121,7 +121,7 @@ public static Vector2d vectorFromRotationInDegrees(float degrees) //Compute vect
 
 ```
 
-Code under [apache2.0 license](https://github.com/mrtycjan/Vector2d/license)
+Code under [apache2.0 license](https://github.com/mrtycjan/Vector2d/blob/master/license.txt)
 
 
 
