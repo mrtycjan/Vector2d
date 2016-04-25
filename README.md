@@ -75,11 +75,14 @@ function Vector2d.degreesToRadians(degrees) --> Converts degrees to radians
 ```
 
 ### For Java
-Download and paste into project ml/tycjan/vector2d folder
+Download and paste into project 'ml/tycjan/vector2d' folder, and import packages, just add this line of code
 
+```java
+import ml.tycjan.vector2d.*;
+```
 
 ### How to integrate with project (Java)
-Take a look at [Example Integration](https://github.com/mrtycjan/Vector2d/tree/master/Java/ml/tycjan/vector2d)
+Take a look at [Example Integration](https://github.com/mrtycjan/Vector2d/blob/master/Java/IntegrationWithJava.java)
 
 ### Functions (Java)
 
